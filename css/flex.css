@@ -25,3 +25,14 @@
     flex-shrink: 0; /* autoriser les éléments plus petits */
     flex-basis: calc(100% / 5);
   }
+  
+  div.gallery-primary ul li:nth-last-of-type(5){
+    flex-basis: calc(100% / 3); 
+  }
+ 
+   div.gallery-primary ul li:nth-last-of-type(6){
+    flex-basis: calc(100% / 3);
+   }
+   div.gallery-primary ul li:nth-last-of-type(7){
+    flex-basis: calc(100% / 5);
+   }
