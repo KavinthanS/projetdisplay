@@ -12,6 +12,7 @@
       margin: 5rem auto;
       background-color: #fff;
   }
+  
   div.gallery-primary ul{
    display: flex;
    justify-content: center;
@@ -20,6 +21,7 @@
    flex-wrap: wrap;
    gap: 1rem;
   }
+  
   div.gallery-primary ul li{
     flex-grow: 1; /* autoriser les éléments suivants plus grands*/
     flex-shrink: 0; /* autoriser les éléments plus petits */
