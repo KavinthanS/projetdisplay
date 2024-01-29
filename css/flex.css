@@ -34,5 +34,9 @@
     flex-basis: calc(100% / 3);
    }
    div.gallery-primary ul li:nth-last-of-type(7){
-    flex-basis: calc(100% / 5);
+    flex-basis: calc(100% / 1);
+   }
+   footer{
+    text-align: center;
+    line-height: 7.5rem;
    }
