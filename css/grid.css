@@ -2,3 +2,19 @@
 /* ==============================
    SECTION 2: THEME CSS
    ============================== */
+   header *{
+      text-align: center;
+      line-height: 7.5rem;
+   }
+
+   div.gallery-primary{ /* contenteur */
+      max-width: 120rem;
+      margin: 5rem auto;
+      background-color: #fff;
+  }
+  div.gallery-primary ul{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 1rem;
+   padding: 1rem;
+  }
